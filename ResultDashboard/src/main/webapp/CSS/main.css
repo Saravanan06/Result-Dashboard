@@ -1,0 +1,123 @@
+@charset "ISO-8859-1";
+*
+{
+	margin:0px;
+	text-align:center;
+	font-family: ff-tisa-sans-web-pro, sans-serif;
+    font-style: normal;
+    box-sizing:inherit;
+}
+html
+{
+	height:100%;
+	box-sizing: border-box;
+}
+body
+{
+	min-height:100%;
+	background-image:url("../images/adminhome.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+ 	-webkit-backdrop-filter: blur(4px);
+	 backdrop-filter: blur(4px);
+}
+header
+{
+  padding:20px;
+  left:0px;
+  top:0px;
+  text-align: center;
+  margin:auto;
+  background: #1abc9c;
+  color: white;
+  font-size: 20px;
+}
+.name
+{
+  position:absolute;
+  top:0;
+  right:15px;
+}
+.logout
+{
+	margin-top:10px;
+}
+input[type=submit],input[type=button],button
+{
+	padding:5px;
+	background:#8F00FF;
+	color:white;
+	border-radius:20px;
+	font-size:15px;
+	font-weight:bold;
+}
+
+.card
+{
+  background-color: dodgerblue;
+  width: 200px;
+  height: 150px;
+  margin:30px;
+  font-size:20px;
+  font-weight:bold;
+  
+}
+#back
+{
+	padding:15px 20px;
+	font-size:20px;
+	background:#8F00FF;
+	transition:0.5s;
+	
+}
+input[type=submit],input[type=button]
+{
+	padding:15px 20px;
+}
+#back:hover
+{
+  background:#50C878;
+}
+#back::before
+{
+  background:linear-gradient(90deg, transparent,#fff,transparent);
+}
+
+.card:hover
+{
+	box-shadow: 0 0 30px rgba(0,0,0,100);
+	transform: scale(1.1);
+	background:#006ad1;
+	transition-duration:0.3s;
+}
+
+.fa-folder-plus,.fa-minus-circle,.fa-edit,.fa-list
+{
+	font-size:40px;
+}
+.fa-minus-circle
+{
+	color:#D10000;
+}
+.fa-folder-plus
+{
+	color:#FAFA0F;
+}
+.fa-edit
+{
+	color:black;
+}
+.fa-list
+{
+	color:black;
+}
+
+footer {
+	position:absolute;
+	bottom:0px;
+	width: 100%;
+	padding:15px;
+	background-color: grey;
+	color: white;
+	text-align: center;
+}
