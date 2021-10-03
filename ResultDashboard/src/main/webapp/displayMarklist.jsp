@@ -76,9 +76,19 @@
 				<td id="result">${student.result}</td>
 			</tr>
 		</table>
+		<br>
+		<div>
+			<form action="pdfMarksheetGenerator" method="post">
+			<button id="back" type="submit"><i class="fas fa-file-pdf"></i>&ensp;Download Marksheet</button>
+		</form>
+		
+		</div>
+		
+		<br><br>
+		<p></p>
 		<footer>
 		<h3>Created and maintained by Saravanan S</h3>
-	</footer>
+		</footer>
 	<%
 	response.setHeader("Cache-Control", "no-cache, no-store, must-revalidate"); //HTTP 1.1
 	response.setHeader("Pragma","no-cache"); //HTTP 1.0

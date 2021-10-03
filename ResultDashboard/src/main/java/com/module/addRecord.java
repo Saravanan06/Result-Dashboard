@@ -41,7 +41,7 @@ public class addRecord extends HttpServlet {
 			String query1="select * from student where rollno=\""+rollno+"\"";
 			Statement st1=con.createStatement();
 			ResultSet rs1=st1.executeQuery(query1);
-			System.out.println(query1);
+			//System.out.println(query1);
 			PrintWriter out=response.getWriter();
 			if(rs1.next()==false)
 			{

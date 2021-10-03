@@ -24,7 +24,7 @@ public class recordDelete extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		student stud=(student) request.getSession().getAttribute("student");
 		String rollno=stud.rollno;
-		System.out.println(stud.rollno);
+		//System.out.println(stud.rollno);
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			String url="jdbc:mysql://localhost:3306/school";
@@ -35,7 +35,7 @@ public class recordDelete extends HttpServlet {
 			String query="delete from student where rollno=(?)";
 			PreparedStatement pst=con.prepareStatement(query);
 			pst.setString(1,rollno);
-			System.out.println(query);
+			//System.out.println(query);
 			pst.executeUpdate();
 			query="delete from marklist where rollno=(?)";
 			pst=con.prepareStatement(query);

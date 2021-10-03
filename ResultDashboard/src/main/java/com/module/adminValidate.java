@@ -20,7 +20,7 @@ public class adminValidate extends HttpServlet {
 		String uname=request.getParameter("username").toString();
 		String password=request.getParameter("password").toString();
 		adminDAO admin=new adminDAO();
-		System.out.println(uname+" "+password);
+		//System.out.println(uname+" "+password);
 		boolean status=admin.validate(uname,password);
 		System.out.println(status);
 		HttpSession session=request.getSession();

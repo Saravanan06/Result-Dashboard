@@ -26,7 +26,7 @@
 			<h4>Database</h3>
 		</div>
 		<div class="name" style="float:right;padding:10px;">
-			Welcome ${admin.salutation}${admin.name}<br>
+			Welcome <strong>${admin.salutation}${admin.name}</strong><br>
 			<a href="adminMain.jsp">
 				<button class="logout"><i class="fas fa-home"></i>&ensp;Home</button>
 			</a>&emsp; 
@@ -44,6 +44,7 @@
 		<tr>
 			<th>Roll No.</th>
 			<th>Name</th>
+			<th>DOB</th>
 			<th>Tamil</th>
 			<th>English</th>
 			<th>Maths</th>
@@ -70,6 +71,7 @@
 		<tr>
 			<td><%=rs.getString("student.rollno") %></td>
 			<td><%=rs.getString("student.name") %></td>
+			<td><%=rs.getString("student.dob") %></td>
 			<td><%=rs.getInt("marklist.Tamil")%></td>
 			<td><%=rs.getInt("marklist.English")%></td>
 			<td><%=rs.getInt("marklist.Maths")%></td>
@@ -88,7 +90,11 @@
 	    %>
 	</table>
 	</div>
-	<br><br><input id="back" type="button" value="Back" onclick="history.back()">
+	<br><br>
+	<form action="pdfMarklistGenerator" method="post">
+			<button id="back" type="submit"><i class="fas fa-file-pdf"></i>&ensp;Download Marklist</button>&ensp;<input id="back" type="button" value="Back" onclick="history.back()">
+	</form>
+	
 	<br><br><br>
 	<footer>
 		<h3>Created and maintained by Saravanan S</h3>

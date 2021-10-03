@@ -1,6 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
-
 <html>
 <head>
 <script src="https://kit.fontawesome.com/d1ea96ed28.js" crossorigin="anonymous"></script>

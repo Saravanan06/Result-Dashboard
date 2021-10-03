@@ -23,7 +23,7 @@
 			<h3>Admin Portal</h3>
 		</div>
 		<div class="name" style="float:right;padding:10px;">
-			Welcome ${admin.salutation}${admin.name}<br>  
+			Welcome <strong>${admin.salutation}${admin.name}</strong><br>  
 			<a  href="logout">
 				<button  class="logout"><i class="fas fa-sign-out-alt"></i>&ensp;Logout</button>
 			</a>

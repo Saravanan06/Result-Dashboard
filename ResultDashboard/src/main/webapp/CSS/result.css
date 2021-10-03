@@ -5,7 +5,7 @@
 	font-family: ff-tisa-sans-web-pro, sans-serif;
     font-style: normal;
     text-align:center;
-    box-sizing:border-box;
+    box-sizing:inherit;
 }
 html
 {
@@ -62,7 +62,7 @@ input[type=submit],input[type=button]
 }
 #back
 {
-	padding:15px 20px;
+	padding:10px 15px;
 	font-size:20px;
 	transition:0.5s;
 	font-weight:bold;

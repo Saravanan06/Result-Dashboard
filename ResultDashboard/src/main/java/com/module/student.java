@@ -112,6 +112,18 @@ public class student {
 		this.total = total;
 	}
 	
+	public String[] getAllString()
+	{
+		String[] result= {this.name,this.dob,this.rollno,this.result};
+		return result;
+	}
+	
+	public int[] getAllInt()
+	{
+		int[] marks= {this.tamil,this.english,this.maths,this.science,this.social,this.social,this.total};
+		return marks;
+	}
+	
 	
 	
 

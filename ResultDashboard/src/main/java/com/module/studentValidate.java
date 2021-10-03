@@ -32,7 +32,7 @@ public class studentValidate extends HttpServlet {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		System.out.println(status);
+		//System.out.println(status);
 		if(status)
 		{
 			HttpSession session=request.getSession();
