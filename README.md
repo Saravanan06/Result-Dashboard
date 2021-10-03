@@ -17,7 +17,8 @@
       The student records can be downloaded in the pdf format.
      
     Student
-      Student can able to check the examination results by providing rollno and Date of Birth as credientials. The student can download the marksheet in pdf format.
+      Student can able to check the examination results by providing rollno and Date of Birth as credientials. 
+      The student can download the marksheet in pdf format.
       
 ## Database
     
