@@ -8,10 +8,26 @@
     2. Student
     
     Admin
-      Admin can able to perform CRUD operations i.e Create, Read, Update and Delete operation on student records. 
+      Admin can able to perform following CRUD operations
+        i) Add a new record
+        ii) Delete existing record
+        iii) Update existing record
+        iv) View the available records
+        
+      The student records can be downloaded in the pdf format.
      
     Student
-      Student can able to check the examination results by providing rollno and Date of Birth as credientials
+      Student can able to check the examination results by providing rollno and Date of Birth as credientials. The student can download the marksheet in pdf format.
+      
+## Database
+    
+     MySQL database is used in this project. It consists of a database and three tables admin,student,marklist.
+     
+     admin - Credientials of admin
+     student - Name, rollno and DOB
+     marklist - Rollno, marks of 5 subjects
+     
+     Rollno is the primary key to access student data.
       
 ## Requirements
 
