@@ -7,7 +7,7 @@
     1. Admin
     2. Student
     
-    Admin
+####   Admin
       Admin can able to perform following CRUD operations
         i) Add a new record
         ii) Delete existing record
@@ -16,7 +16,7 @@
         
       The student records can be downloaded in the pdf format.
      
-    Student
+####    Student
       Student can able to check the examination results by providing rollno and Date of Birth as credientials. 
       The student can download the marksheet in pdf format.
       
@@ -37,6 +37,7 @@
 3. MySQL Server/Workbench
 4. jstl-1.2.jar
 5. mysql-connector-java 8.0.25.jar
+6. itextpdf 5.1.0.jar (For PDF generation)
       
 # Demo video
 
